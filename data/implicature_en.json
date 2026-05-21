@@ -1,0 +1,132 @@
+{
+    "good_bad": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["The"],
+            "np": ["result", "tea", "movie", "book", "meal", "service", "weather", "game", "concert", "performance", "food", "experience", "product", 
+            "event", "trip", "show", "presentation", "flight", "hotel", "restaurant", "view", "sunset", "beach", 
+            "museum", "exhibit", "wine", "dessert", "coffee", "atmosphere", "location", "staff", "room", 
+            "tour", "guide", "party", "wedding", "ceremony", "reception", "cake", "dress", "venue", "music", "band", "singer", "song", "album", "soundtrack", "video", "documentary", "series", "episode", "finale", "plot", "ending", "twist", "character", "acting", 
+            "dialogue", "script", "costume", "scenery", "lighting", "sound", "special", "interview", "speech", "lecture", "seminar", "workshop", "class", "course", "instructor", "professor", "lesson", "assignment", "exam", "grade", "curriculum", "program", "degree", "school", "university", "campus", "library", "park", "garden", "trail", "hike", "climb", "summit", "valley", "forest", "river", "lake", "ocean", "island",
+             "cruise", "voyage", "journey", "adventure", "expedition", "resort", "spa", "massage", "treatment", "therapy", "session", "workout", "exercise", "routine", "diet", "recipe", "dish", "salad", "soup", "sauce", "flavor", "texture", "aroma", "taste", "menu", "chef", "kitchen", "bar", "cocktail", "beer", "champagne", "lunch", "dinner", "breakfast", 
+            "shopping", "store", "mall", "deal", "discount", "sale", "purchase", "delivery", "packaging", "quality", "design", "style", "color", "fit", "fabric", "material", "finish", "detail", "feature", "technology", "software", "app", "interface", "platform", 
+            "website", "update", "upgrade", "version", "functionality", "performance", "speed", "battery", "screen", "camera", "photo", "picture", "image", "graphics", "animation", "artwork", "painting", "sculpture", "installation", "collection", "gallery", "auction", "price", "value", "investment", "return", "profit", "loss", 
+            "market", "economy", "policy", "decision", "outcome", "impact", "effect", "change", "improvement", "progress", "development", "growth", "success", "achievement", "victory", "celebration", "moment", "memory"],
+            "np_plural": ["results", "teas", "movies", "books", "meals", "services", "weathers", "games", "concerts", "performances", "foods", "experiences", "products",
+            "events", "trips", "shows", "presentations", "flights", "hotels", "restaurants", "views", "sunsets", "beaches",
+             "museums", "exhibits", "wines", "desserts", "coffees", "atmospheres", "locations", "staffs", "rooms",
+             "tours", "guides", "parties", "weddings", "ceremonies", "receptions", "cakes", "dresses", "venues", "musics", "bands", "singers", "songs", "albums", "soundtracks", "videos", "documentaries", "series", "episodes", "finales", "plots", "endings", "twists", "characters", "actings",
+             "dialogues", "scripts", "costumes", "sceneries", "lightings", "sounds", "specials", "interviews", "speeches", "lectures", "seminars", "workshops", "classes", "courses", "instructors", "professors", "lessons", "assignments", "exams", "grades", "curriculums", "programs", "degrees", "schools", "universities", "campuses", "libraries", "parks", "gardens", "trails", "hikes", "climbs", "summits", "valleys", "forests", "rivers", "lakes", "oceans", "islands",
+             "cruises", "voyages", "journeys", "adventures", "expeditions", "resorts", "spas", "massages", "treatments", "therapies", "sessions", "workouts", "exercises", "routines", "diets", "recipes", "dishes", "salads", "soups", "sauces", "flavors", "textures", "aromas", "tastes", "menus", "chefs", "kitchens", "bars", "cocktails", "beers", "champagnes", "lunches", "dinners", "breakfasts", 
+            "shoppings", "stores", "malls", "deals", "discounts", "sales", "purchases", "deliveries", "packagings", "qualities", "designs", "styles", "colors", "fits", "fabrics", "materials", "finishes", "details", "features", "technologies", "softwares", "apps", "interfaces", "platforms",
+            "websites", "updates", "upgrades", "versions", "functionalities", "performances", "speeds", "batteries", "screens", "cameras", "photos", "pictures", "images", "graphics", "animations", "artworks", "paintings", "sculptures", "installations", "collections", "galleries", "auctions", "prices", "values", "investments", "returns", "profits", "losses",
+            "markets", "economies", "policies", "decisions", "outcomes", "impacts", "effects", "changes", "improvements", "progresses", "developments", "growths", "successes", "achievements", "victories", "celebrations", "moments", "memories"],
+            "aux": ["was", "were"],
+            "aux2": ["is", "are"],
+            "adj1": ["good", "bad"],
+            "cc": ["but"],
+            "neg": ["not"],
+            "adj2": ["excellent", "terrible"]
+        }
+    },
+    "warm_cool": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["The"],
+            "np": ["coffee", "milk", "cocoa", "cider", "latte", "chai", 
+            "beer", "juice", "smoothie", "punch", "matcha", "broth", "cider", 
+            "porridge", "oatmeal", "stew", "chili", "gravy", "bisque", "risotto", 
+            "pasta", "quiche", "polenta", "bath", "shower", "towel", "blanket", "clay", "soil", 
+            "steel", "copper", "ceramic", "wax", "grease", "balm", "salve", "cream", "lotion", "serum", 
+            "honey", "butter", "lard", "paint", "varnish", "asphalt", "foam", "vapor", "steam", "smoke", "flame", "lava", "magma", "frost", "dew", "snow", 
+            "gravel", "marble", "granite", "slate", "limestone"],
+            "np_plural": ["coffees", "milks", "cocoas", "ciders", "lattes", "chais",
+            "beers", "juices", "smoothies", "punches", "matchas", "broths", "ciders",
+            "porridges", "oatmeals", "stews", "chilis", "gravies", "bisques", "risottos",
+            "pastas", "quiches", "polentas", "baths", "showers", "towels", "blankets", "clays", "soils",
+            "steels", "coppers", "ceramics", "waxes", "greases", "balms", "salves", "creams", "lotions", "serums",
+            "honeys", "butters", "lards", "paints", "varnishes", "asphalts", "foams", "vapors", "steams", "smokes", "flames", "lavas", "magmas", "frosts", "dews", "snows",
+            "gravels", "marbles", "granites", "slates", "limestones"],
+            "aux": ["was", "were"],
+            "aux2": ["is", "are"],
+            "adj1": ["warm", "cool"],
+            "cc": ["but"],
+            "neg": ["not"],
+            "adj2": ["hot", "cold"]
+        }
+    },
+    "large_small": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["The"],
+            "np": ["crate", "chest", "barrel", "basket", "tank", "drum", "sack", 
+            "pouch", "envelope", "trunk", "vault", "drawer", "desk", "sofa", "wardrobe", 
+            "shelf", "drawer", "closet", "mirror", "lamp", "curtain", "vase", "apartment", "cottage", 
+            "cabin", "shed", "garage", "warehouse", "barn", "tower", "dome", "fence", "boulder", "island", 
+            "pond", "valley", "mountain", "cave", "crater", "dune", "cliff", "reef", "meadow", "garden", "gear", 
+            "lever", "plank", "brick", "slab", "podium"],
+            "np_plural": ["crates", "chests", "barrels", "baskets", "tanks", "drums", "sacks",
+            "pouches", "envelopes", "trunks", "vaults", "drawers", "desks", "sofas", "wardrobes",
+            "shelves", "drawers", "closets", "mirrors", "lamps", "curtains", "vases", "apartments", "cottages",
+            "cabins", "sheds", "garages", "warehouses", "barns", "towers", "domes", "fences", "boulders", "islands",
+            "ponds", "valleys", "mountains", "caves", "craters", "dunes", "cliffs", "reefs", "meadows", "gardens", "gears",
+            "levers", "planks", "bricks", "slabs", "podiums"],
+            "aux": ["was", "were"],
+            "aux2": ["is", "are"],
+            "adj1": ["large", "small"],
+            "cc": ["but"],
+            "neg": ["not"],
+            "adj2": ["huge", "tiny"]
+        }
+    },
+    "clean_dirty": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["The"],
+            "np": ["kitchen", "bedroom", "hallway", "basement", "attic", "cellar", "pantry", 
+            "lobby", "ceiling", "countertop", "tabletop", "windowsill", "shelf", "sofa", "desk", "blanket", 
+            "curtain", "jacket", "dress", "apron", "glove", "towel", "bowl", "tray", "knife", "spoon", "garden", "patio", 
+            "terrace", "driveway", "pathway", "sidewalk", "alley", "playground", "truck", "motorcycle", "cabin", "cockpit", 
+            "tooth", "wound", "bandage", "sponge", "garage", "warehouse", "mirror", "mop", "drain", "gutter"],
+            "np_plural": ["kitchens", "bedrooms", "hallways", "basements", "attics", "cellars", "pantries",
+            "lobbies", "ceilings", "countertops", "tabletops", "windowsills", "shelves", "sofas", "desks", "blankets",
+            "curtains", "jackets", "dresses", "aprons", "gloves", "towels", "bowls", "trays", "knives", "spoons", "gardens", "patios",
+            "terraces", "driveways", "pathways", "sidewalks", "alleys", "playgrounds", "trucks", "motorcycles", "cabins", "cockpits",
+            "teeth", "wounds", "bandages", "sponges", "garages", "warehouses", "mirrors", "mops", "drains", "gutters"],
+            "aux": ["was", "were"],
+            "aux2": ["is", "are"],
+            "adj1": ["clean", "soiled"],
+            "cc": ["but"],
+            "neg": ["not"],
+            "adj2": ["spotless", "dirty"]
+        }
+    },
+    "always_sometimes": {
+          "templates": [
+        "{freq1} {is} {name} {adj}, {cc} {restrictor} {freq2}"     
+    ],
+        "variables": {
+            "freq1": ["Not always", "Sometimes"],
+            "aux": ["is"],
+            "name": ["Mary", "John"],
+            "adj": ["sad", "grumpy", "calm", "restless", "tired", "lazy", 
+            "lively", "talkative", "withdrawn", "shy", "outgoing", "chatty", "distant", 
+            "distracted", "confused", "precise", "careless", "methodical", "hungry", "sick", "sore", "stiff", 
+            "confident", "worried", "relaxed", "tense", "excited", "bored", "indifferent", "passionate", "idle", 
+            "disorganized", "diligent", "thorough", "sloppy", "unreliable", "honest", "secretive", "generous", "selfish", 
+            "rude", "polite", "humble", "playful", "creative", "rigid", "flexible", "adaptable", "impulsive", "reckless"],
+            "cc": ["but"],
+            "restrictor": ["only", "not"],
+            "freq2": ["sometimes", "always"]
+
+    }    
+}
+}

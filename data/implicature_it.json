@@ -1,0 +1,137 @@
+{
+    "good_bad": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["Il", "La", "Lo", "I", "Le", "Gli"],
+            "np": ["risultato", "tè", "film", "libro", "pasto", "servizio", "tempo", "partita", "concerto", "performance", "cibo", "esperienza", "prodotto",
+            "evento", "viaggio", "spettacolo", "presentazione", "volo", "hotel", "ristorante", "vista", "tramonto", "spiaggia",
+            "museo", "mostra", "vino", "dolce", "caffè", "atmosfera", "posizione", "personale", "stanza",
+            "tour", "guida", "festa", "matrimonio", "cerimonia", "ricevimento", "torta", "vestito", "location", "musica", "band", "cantante", "canzone", "album", "colonna sonora", "video", "documentario", "serie", "episodio", "finale", "trama", "finale", "colpo di scena", "personaggio", "recitazione",
+            "dialogo", "sceneggiatura", "costume", "scenografia", "illuminazione", "suono", "intervista", "discorso", "lezione", "seminario", "laboratorio", "classe", "corso", "istruttore", "professore", "lezione", "compito", "esame", "voto", "programma", "laurea", "scuola", "università", "campus", "biblioteca", "parco", "giardino", "sentiero", "escursione", "scalata", "vetta", "valle", "foresta", "fiume", "lago", "oceano", "isola",
+            "crociera", "viaggio", "avventura", "spedizione", "resort", "spa", "massaggio", "trattamento", "terapia", "sessione", "allenamento", "esercizio", "routine", "dieta", "ricetta", "piatto", "insalata", "zuppa", "salsa", "sapore", "consistenza", "aroma", "gusto", "menù", "chef", "cucina", "bar", "cocktail", "birra", "champagne", "pranzo", "cena", "colazione",
+            "shopping", "negozio", "centro commerciale", "offerta", "sconto", "saldo", "acquisto", "consegna", "confezione", "qualità", "design", "stile", "colore", "vestibilità", "tessuto", "materiale", "finitura", "dettaglio", "funzionalità", "tecnologia", "software", "app", "interfaccia", "piattaforma",
+            "sito web", "aggiornamento", "versione", "prestazione", "velocità", "batteria", "schermo", "fotocamera", "foto", "immagine", "grafica", "animazione", "opera", "dipinto", "scultura", "installazione", "collezione", "galleria", "asta", "prezzo", "valore", "investimento", "ritorno", "profitto", "perdita",
+            "mercato", "economia", "politica", "decisione", "risultato", "impatto", "effetto", "cambiamento", "miglioramento", "progresso", "sviluppo", "crescita", "successo", "traguardo", "vittoria", "celebrazione", "momento", "ricordo"],
+        "np_plural": ["risultati", "tè", "film", "libri", "pasti", "servizi", "condizioni meteo", "partite", "concerti", "performance", "cibi", "esperienze", "prodotti",
+            "eventi", "viaggi", "spettacoli", "presentazioni", "voli", "hotel", "ristoranti", "viste", "tramonti", "spiagge",
+            "musei", "mostre", "vini", "dolci", "caffè", "atmosfere", "posizioni", "personali", "stanze",
+            "tour", "guide", "feste", "matrimoni", "cerimonie", "ricevimenti", "torte", "vestiti", "location", "musiche", "band", "cantanti", "canzoni", "album", "colonne sonore", "video", "documentari", "serie", "episodi", "finali", "trame", "conclusioni", "colpi di scena", "personaggi", "recitazioni",
+            "dialoghi", "sceneggiature", "costumi", "scenografie", "illuminazioni", "suoni", "interviste", "discorsi", "lezioni", "seminari", "laboratori", "classi", "corsi", "istruttori", "professori", "lezioni", "compiti", "esami", "voti", "programmi", "lauree", "scuole", "università", "campus", "biblioteche", "parchi", "giardini", "sentieri", "escursioni", "scalate", "vette", "valli", "foreste", "fiumi", "laghi", "oceani", "isole",
+            "crociere", "viaggi", "avventure", "spedizioni", "resort", "spa", "massaggi", "trattamenti", "terapie", "sessioni", "allenamenti", "esercizi", "routine", "diete", "ricette", "piatti", "insalate", "zuppe", "salse", "sapori", "consistenze", "aromi", "gusti", "menù", "chef", "cucine", "bar", "cocktail", "birre", "champagne", "pranzi", "cene", "colazioni",
+            "acquisti", "negozi", "centri commerciali", "offerte", "sconti", "saldi", "acquisti", "consegne", "confezioni", "qualità", "design", "stili", "colori", "vestibilità", "tessuti", "materiali", "finiture", "dettagli", "funzionalità", "tecnologie", "software", "app", "interfacce", "piattaforme",
+            "siti web", "aggiornamenti", "versioni", "prestazioni", "velocità", "batterie", "schermi", "fotocamere", "foto", "immagini", "grafiche", "animazioni", "opere", "dipinti", "sculture", "installazioni", "collezioni", "gallerie", "aste", "prezzi", "valori", "investimenti", "ritorni", "profitti", "perdite",
+            "mercati", "economie", "politiche", "decisioni", "risultati", "impatti", "effetti", "cambiamenti", "miglioramenti", "progressi", "sviluppi", "crescite", "successi", "traguardi", "vittorie", "celebrazioni", "momenti", "ricordi"],
+        "aux": ["era", "erano"],
+        "aux2": ["è", "sono"],
+        "adj1": ["cattivo", "cattiva", "buono", "buona", "cattivi", "cattive", "buoni", "buone"],
+        "cc": ["ma"],
+        "neg": ["non"],
+        "adj2": ["eccellente", "eccellenti", "terribile", "terribili"]
+        }
+    },
+    "warm_cool": {
+    "templates": [
+        "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+    ],
+    "variables": {
+        "article": ["Il", "La", "I", "Le", "Lo", "Gli"],
+        "np": ["caffè", "latte", "cacao", "sidro", "latte macchiato", "chai",
+            "birra", "succo", "frullato", "punch", "matcha", "brodo", "sidro",
+            "porridge", "fiocchi d'avena", "stufato", "chili", "sugo", "bisque", "risotto",
+            "pasta", "quiche", "polenta", "bagno", "doccia", "asciugamano", "coperta", "argilla", "terra",
+            "acciaio", "rame", "ceramica", "cera", "grasso", "balsamo", "unguento", "crema", "lozione", "siero",
+            "miele", "burro", "strutto", "vernice", "vernice", "asfalto", "schiuma", "vapore", "vapore", "fumo", "fiamma", "lava", "magma", "brina", "rugiada", "neve",
+            "ghiaia", "marmo", "granito", "ardesia", "calcare"],
+        "np_plural": ["caffè", "latti", "cacao", "sidri", "latte macchiato", "chai",
+            "birre", "succhi", "frullati", "punch", "matcha", "brodi", "sidri",
+            "porridge", "fiocchi d'avena", "stufati", "chili", "sughi", "bisque", "risotti",
+            "paste", "quiche", "polente", "bagni", "docce", "asciugamani", "coperte", "argille", "terre",
+            "acciai", "rami", "ceramiche", "cere", "grassi", "balsami", "unguenti", "creme", "lozioni", "sieri",
+            "mieli", "burri", "strutto", "vernici", "vernici", "asfalti", "schiume", "vapori", "vapori", "fumi", "fiamme", "lave", "magma", "brine", "rugiade", "neve",
+            "ghiaia", "marmi", "graniti", "ardesie", "calcare"],
+        "aux": ["era", "erano"],
+        "aux2": ["è", "sono"],
+        "adj1": ["caldo", "calda", "caldi", "calde", "freddo", "fredda", "freddi", "fredde"],
+        "cc": ["ma"],
+        "neg": ["non"],
+        "adj2": ["bollente", "bollenti", "ghiacciato", "ghiacciate", "ghiacciata", "ghiacciati"]
+        }
+    },
+    "large_small": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["Il", "La", "I", "Le", "Lo", "Gli"],
+        "np": ["cassa", "baule", "barile", "cesto", "serbatoio", "tamburo", "sacco",
+            "sacchetto", "busta", "baule", "caveau", "cassetto", "scrivania", "divano", "armadio",
+            "scaffale", "cassetto", "armadio", "specchio", "lampada", "tenda", "vaso", "appartamento", "villetta",
+            "cabina", "capanno", "garage", "magazzino", "fienile", "torre", "cupola", "recinto", "masso", "isola",
+            "stagno", "valle", "montagna", "grotta", "cratere", "duna", "scogliera", "barriera corallina", "prato", "giardino", "ingranaggio",
+            "leva", "asse", "mattone", "lastra", "podio"],
+        "np_plural": ["casse", "bauli", "barili", "cesti", "serbatoi", "tamburi", "sacchi",
+            "sacchetti", "buste", "bauli", "caveau", "cassetti", "scrivanie", "divani", "armadi",
+            "scaffali", "cassetti", "armadi", "specchi", "lampade", "tende", "vasi", "appartamenti", "villette",
+            "cabine", "capanni", "garage", "magazzini", "fienili", "torri", "cupole", "recinti", "massi", "isole",
+            "stagni", "valli", "montagne", "grotte", "crateri", "dune", "scogliere", "barriere coralline", "prati", "giardini", "ingranaggi",
+            "leve", "assi", "mattoni", "lastre", "podi"],
+            "aux": ["era", "erano"],
+            "aux2": ["è", "sono"],
+            "adj1": ["grande", "grandi", "piccolo", "piccoli", "piccola", "piccole"],
+            "cc": ["ma"],
+            "neg": ["non"],
+            "adj2": ["enorme", "enormi", "minuscolo", "minuscoli", "minuscola", "minuscole"]
+        }
+    },
+     "clean_dirty": {
+        "templates": [
+            "{article} {np} {aux} {adj1} {cc} {neg} {adj2}"
+        ],
+        "variables": {
+            "article": ["Il", "La", "I", "Le", "Lo", "Gli"],
+            "np": ["cucina", "camera", "corridoio", "seminterrato", "soffitta", "cantina", "dispensa",
+                "atrio", "soffitto", "piano di lavoro", "piano del tavolo", "davanzale", "scaffale", "divano", "scrivania", "coperta",
+                "tenda", "giacca", "vestito", "grembiule", "guanto", "asciugamano", "ciotola", "vassoio", "coltello", "cucchiaio", "giardino", "patio",
+                "terrazza", "vialetto", "sentiero", "marciapiede", "vicolo", "parco giochi", "camion", "moto", "cabina", "cabina di pilotaggio",
+                "dente", "ferita", "benda", "spugna", "garage", "magazzino", "specchio", "mocio", "scarico", "grondaia"],
+            "np_plural": ["cucine", "camere", "corridoi", "seminterrati", "soffitte", "cantine", "dispense",
+                "atri", "soffitti", "piani di lavoro", "piani del tavolo", "davanzali", "scaffali", "divani", "scrivanie", "coperte",
+                "tende", "giacche", "vestiti", "grembiuli", "guanti", "asciugamani", "ciotole", "vassoi", "coltelli", "cucchiai", "giardini", "patio",
+                "terrazze", "vialetti", "sentieri", "marciapiedi", "vicoli", "parchi giochi", "camion", "moto", "cabine", "cabine di pilotaggio",
+                "denti", "ferite", "bende", "spugne", "garage", "magazzini", "specchi", "moci", "scarichi", "grondaie"],
+            "aux": ["era", "erano"],
+            "aux2": ["è", "sono"],
+            "adj1": ["pulito", "sporco", "pulita", "sporca", "puliti", "sporchi", "pulite", "sporche"],
+            "cc": ["ma"],
+            "neg": ["non"],
+            "adj2": ["lindo", "lurido", "linda", "lurida", "lindi", "luridi", "linde", "luride"]
+        }
+    },
+     "always_sometimes": { 
+          "templates": [
+        "{freq1} {is} {name} {adj}, {cc} {restrictor} {freq2}"     
+    ],
+        "variables": {
+            "freq1": ["Non sempre", "A volte"],
+            "aux": ["è"],
+            "name": ["John", "Mary"],
+            "adj": ["triste", "arrabbiato", "calmo", "agitato", "stanco", "pigro", 
+            "vivace", "chiacchierone", "distaccato", "esitante", "socievole", "chiacchierone", "distaccato", 
+            "distratto", "confuso", "preciso", "noncurante", "metodico", "affamato", "malato", "dolente", "rigido", 
+            "sicuro", "preoccupato", "rilassato", "teso", "entusiasta", " annoiato", "indifferente", "appassionato", "inerte", 
+            "disorganizzato", "diligente", "minuzioso", "sbrigativo", "inaffidabile", "onesto", "riservato", "generoso", "egoista", 
+            "rude", "educato", "umile", "giocoso", "creativo", "rigido", "flessibile", "adattabile", "impulsivo", "coraggioso"],
+            "adj_female": ["triste", "arrabbiata", "calma", "agitata", "stanca", "pigra",
+            "vivace", "chiacchierona", "distaccata", "esitante", "socievole", "chiacchierona", "distaccata", 
+            "distratta", "confusa", "precisa", "noncurante", "metodica", "affamata", "malata", "dolente", "rigida", 
+            "sicura", "preoccupata", "rilassata", "tesa", "entusiasta", " annoiata", "indifferente", "appassionata", "inerte", 
+            "disorganizzata", "diligente", "minuziosa", "sbrigativa", "inaffidabile", "onesta", "riservata", "generosa", "egoista", 
+            "rude", "educata", "umile", "giocosa", "creativa", "rigida", "flessibile", "adattabile", "impulsiva", "coraggiosa"],
+            "cc": ["ma"],
+            "restrictor": ["solo", "non"],
+            "freq2": ["a volte", "sempre"]
+}    
+}
+}
